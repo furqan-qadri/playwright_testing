@@ -13,6 +13,7 @@ test("should display headings and show alert when button is clicked", async ({
   const h3 = await page.locator("h3").innerText();
 
   expect(h1).toBe("Hello");
+  
   expect(h2).toBe("My Name");
   expect(h3).toBe("Furqan");
 });
